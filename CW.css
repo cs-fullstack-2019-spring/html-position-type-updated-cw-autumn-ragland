@@ -1,10 +1,12 @@
+/*change all font to a new font*/
 p{
     font-family: "Courier New", Courier, monospace
 }
+/*change whole document background to grey*/
 body{
     background: rgba(185, 185, 185, 0.76);
 }
-
+/*change header font to basic font,add specific border with padding to header element, and add margin*/
 header{
     font-family: "Courier New", Courier, monospace;
     text-align: center;
@@ -12,6 +14,7 @@ header{
     padding: 5px;
     margin: 10px;
 }
+/*Add specific border with padding to section element,add margin, and float to the left*/
 section{
     border: 1px solid blue;
     padding: 5px;
@@ -19,6 +22,7 @@ section{
     float: left;
     width: 55%;
 }
+/*Add specific border with padding to article element,add margin, and position it in the section element*/
 article{
     text-align: center;
     border: 1px dashed blue;
@@ -28,6 +32,7 @@ article{
     bottom: 5px;
     left: auto;
 }
+/*Add specific border with padding to aside element,add margin, and float to the right*/
 aside{
     border: 1px solid green;
     padding: 5px;
@@ -35,6 +40,7 @@ aside{
     float: right;
     width: 35%;
 }
+/*Add specific border with padding to footer element,add margin, and clear the two floated elements section and aside*/
 footer{
     border: 1px solid red;
     padding: 5px;
