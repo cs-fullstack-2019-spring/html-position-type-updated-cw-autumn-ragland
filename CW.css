@@ -1,0 +1,44 @@
+p{
+    font-family: "Courier New", Courier, monospace
+}
+body{
+    background: rgba(185, 185, 185, 0.76);
+}
+
+header{
+    font-family: "Courier New", Courier, monospace;
+    text-align: center;
+    border: 1px solid black;
+    padding: 5px;
+    margin: 10px;
+}
+section{
+    border: 1px solid blue;
+    padding: 5px;
+    margin: 10px;
+    float: left;
+    width: 55%;
+}
+article{
+    text-align: center;
+    border: 1px dashed blue;
+    padding: 5px;
+    margin: 10px;
+    position: relative;
+    bottom: 5px;
+    left: auto;
+}
+aside{
+    border: 1px solid green;
+    padding: 5px;
+    margin: 10px;
+    float: right;
+    width: 35%;
+}
+footer{
+    border: 1px solid red;
+    padding: 5px;
+    margin: 10px;
+    clear: both;
+}
+
